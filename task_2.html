@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS—task2</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container{
+            width: 600px;
+            margin:0 auto;
+            margin-top: 20px;
+        }
+        .container li{
+            display: inline-block;
+        }
+        .btn{
+            padding:8px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            color: #000;
+        }
+        .btn:hover{
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .steal{
+            background-color: #009688;
+            color: #ffffff;
+        }
+        .yellow{
+            background-color: #ffeb3b;
+        }
+        .orange{
+            background-color: #ff9800;
+        }
+        .red{
+            background-color: #f44336;
+            color: #ffffff;
+        }
+        .green{
+            background-color: #4CAF50;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <ul>
+        <li><a href="#" class="btn steal">steal</a></li>
+        <li><a href="#" class="btn yellow">yellow</a></li>
+        <li><a href="#" class="btn orange">orange</a></li>
+        <li><a href="#" class="btn red">red</a></li>
+        <li><a href="#" class="btn green">green</a></li>
+    </ul>
+</div>
+</body>
+</html>
